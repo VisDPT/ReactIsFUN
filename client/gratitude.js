@@ -18,6 +18,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 //if matches the '/', grab the main component; notes grid & Single will be childeren of the main component (cclone elements in single.js)
 //indexRoute is used if it is just '/' in url, it renders IndexRoute
 //postId is a variable with and ID that we store
+//browser history - allows to push changes to URLS without having to reload the page
 const router=(
 <Router history={browserHistory}>
     <Route path="/" component= {Main}>
